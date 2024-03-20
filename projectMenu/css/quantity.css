@@ -8,11 +8,11 @@
 }
 
 .quantity .input-text.qty {
-    width: 35px;
-    height: 39px;
+    width: 15px;
+    height: 19px;
     padding: 0 5px;
     text-align: center;
-    background-color: transparent;
+    background-color: #efefef;
     border: 1px solid #efefef;
 }
 
@@ -21,6 +21,7 @@
     position: relative;
     white-space: nowrap;
     vertical-align: top;
+    margin: 10px;
 }
 
 .quantity.buttons_added input {
@@ -32,8 +33,7 @@
 
 .quantity.buttons_added .minus,
 .quantity.buttons_added .plus {
-    padding: 7px 10px 8px;
-    height: 41px;
+    height: 20px;
     background-color: #ffffff;
     border: 1px solid #efefef;
     cursor: pointer;
