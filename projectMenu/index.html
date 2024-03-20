@@ -106,7 +106,7 @@
 
         <section class="personal-data">
             <input type="text" id="" placeholder="Enter your name"></input>
-            <input type="text" id="" placeholder="Enter your phone number"></input>
+            <input type="text" id="phone" placeholder="Enter your phone number"></input>
             <input type="text" id="" placeholder="Type your E-mail"></input>
         </section>
 
@@ -120,8 +120,13 @@
         </footer>
 
         <script src="js/jquery-3.6.0.min.js"> </script>
+        <script src="js/jquery.mask.min.js"> </script>
         <script src="js/quantity.js"> </script>
         <script src="js/script.js"> </script>
+
+        <script>
+            $("#phone").mask("(99) 99999-9999");
+        </script>
 
     </div>
 </body>
